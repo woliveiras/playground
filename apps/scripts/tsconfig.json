@@ -1,0 +1,4 @@
+{
+	"extends": "../../packages/config/base.json",
+	"include": ["src"]
+}

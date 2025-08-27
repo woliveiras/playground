@@ -1,0 +1,11 @@
+{
+	"extends": "../../packages/config/base.json",
+	"compilerOptions": {
+		/* Bundler mode */
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"noEmit": true,
+		"jsx": "react-jsx"
+	},
+	"include": ["src"]
+}
