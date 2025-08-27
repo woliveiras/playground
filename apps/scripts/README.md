@@ -6,18 +6,18 @@ This directory contains simple TypeScript scripts that can be executed directly 
 
 1. Install dependencies:
 
-   ```bash
+   ```sh
    pnpm install
    ```
 
 2. Run the example script:
 
-   ```bash
+   ```sh
    pnpm --filter scripts dev
    ```
 
 3. To run a specific script, use the `runner.js` file. For example, to run `hello-world.ts`:
 
-   ```bash
+   ```sh
    pnpm --filter scripts start hello-world 
    ```

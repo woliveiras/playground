@@ -1,0 +1,20 @@
+{
+	"name": "@repo/hello-monorepo",
+	"version": "1.0.0",
+	"private": true,
+	"types": "dist/index.d.ts",
+	"module": "dist/index.mjs",
+	"main": "dist/index.js",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"scripts": {
+		"build": "tsc --project tsconfig.app.json"
+	},
+	"license": "MIT"
+}
